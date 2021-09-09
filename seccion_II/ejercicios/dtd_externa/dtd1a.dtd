@@ -1,0 +1,15 @@
+<!-- dtd de ejercicio 1a -->
+<!ELEMENT fichero (ficha+)>
+		<!ELEMENT ficha ((nombre, apellido, direccion*, DUI?, telefono) | correo | pais)*>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            	<!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT telefono (#PCDATA)>
+			<!ATTLIST telefono tipo CDATA #REQUIRED>
+		<!ELEMENT correo (#PCDATA)>
+		<!ELEMENT pais (#PCDATA)>
+			<!ATTLIST pais idioma CDATA #IMPLIED>
+			<!ATTLIST pais moneda CDATA #IMPLIED> 

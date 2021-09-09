@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplodtd1.xml -->
+
+<!DOCTYPE fichero SYSTEM "dtd1b.dtd">
+<fichero>
+    <encabezado>
+        <fecha>09-09-2021</fecha>
+        <puesto>Vendedora</puesto>
+    </encabezado>
+ 	<ficha>
+  		<nombre sexo="femenino" edad="17">Sara</nombre>
+  		<apellido>Fuentes</apellido>
+  		<direccion>Col. El vidente casa #9</direccion>
+  		<DUI>5487964-1</DUI>
+  		<telefono tipo="celular" id="1">6486-7318</telefono>
+        <telefono tipo="fijo" id="2">2614-4587</telefono>
+        <telefono tipo="celular" id="3">7563-4987</telefono>
+		<correo>fuentes@mail.com</correo>
+		<pais idioma="Español">El Salvador</pais>
+ 	</ficha>
+</fichero>
