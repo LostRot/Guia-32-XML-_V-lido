@@ -1,5 +1,5 @@
 <!-- dtd de ejercicio 1a -->
-<!ELEMENT fichero (ficha+)>
+<!ELEMENT fichero (a*, ficha+)>
 		<!ELEMENT ficha ((nombre, apellido, direccion*, DUI?, telefono) | correo | pais)*>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -12,4 +12,9 @@
 		<!ELEMENT correo (#PCDATA)>
 		<!ELEMENT pais (#PCDATA)>
 			<!ATTLIST pais idioma CDATA #IMPLIED>
-			<!ATTLIST pais moneda CDATA #IMPLIED> 
+			<!ATTLIST pais moneda CDATA #IMPLIED>
+		<!ELEMENT a (#PCDATA)>
+		<!ATTLIST a  
+			href CDATA #IMPLIED
+			xmlns CDATA #IMPLIED 
+			target (_blank|_self|marco) "_blank"> 

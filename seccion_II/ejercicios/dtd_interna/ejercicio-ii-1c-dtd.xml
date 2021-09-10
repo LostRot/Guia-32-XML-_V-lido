@@ -3,7 +3,7 @@
 <!-- ejemplodtd1.xml -->
 
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (ficha+, a?)>
+		<!ELEMENT fichero (a*, ficha+)>
 		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -11,6 +11,7 @@
 		<!ELEMENT apellido (#PCDATA)>
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT a (#PCDATA)>
 		<!ATTLIST a  
 			href CDATA #IMPLIED
 			xmlns CDATA #IMPLIED 

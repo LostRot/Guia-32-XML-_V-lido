@@ -4,8 +4,10 @@
 <!DOCTYPE fichero SYSTEM "dtd1b.dtd">
 <fichero>
     <encabezado>
-        <fecha>09-09-2021</fecha>
+        <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">___index___</a>
+		<fecha>09-09-2021</fecha>
         <puesto>Vendedora</puesto>
+
     </encabezado>
  	<ficha>
   		<nombre sexo="femenino" edad="17">Sara</nombre>

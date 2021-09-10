@@ -3,7 +3,7 @@
 
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (encabezado?,ficha+)>
-            <!ELEMENT encabezado (fecha, puesto)>
+            <!ELEMENT encabezado (a*,fecha, puesto)>
                 <!ATTLIST encabezado empresa CDATA #FIXED "TPI S.A. de C.V.">
                 <!ELEMENT fecha (#PCDATA)>
                 <!ELEMENT puesto (#PCDATA)>
@@ -22,11 +22,18 @@
 		        <!ELEMENT pais (#PCDATA)>
 			        <!ATTLIST pais idioma CDATA #IMPLIED>
 			        <!ATTLIST pais moneda CDATA #IMPLIED> 
+				<!ELEMENT a (#PCDATA)>
+				<!ATTLIST a  
+					href CDATA #IMPLIED
+					xmlns CDATA #IMPLIED 
+					target (_blank|_self|marco) "_blank">
 		]>
 <fichero>
     <encabezado>
+		<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">___index___</a>
         <fecha>09-09-2021</fecha>
         <puesto>Vendedora</puesto>
+		
     </encabezado>
  	<ficha>
   		<nombre sexo="femenino" edad="17">Sara</nombre>

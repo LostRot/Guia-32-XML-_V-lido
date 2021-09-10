@@ -1,21 +1,27 @@
 <!-- dtd para ejercicio 1b -->
 <!ELEMENT fichero (encabezado?,ficha+)>
-            <!ELEMENT encabezado (fecha, puesto)>
-                <!ATTLIST encabezado empresa CDATA #FIXED "TPI S.A. de C.V.">
-                <!ELEMENT fecha (#PCDATA)>
-                <!ELEMENT puesto (#PCDATA)>
-		    <!ELEMENT ficha ((nombre, apellido,foto?, direccion*, DUI?, telefono*) |correo|pais)*>
-                <!ELEMENT foto EMPTY>
-		        <!ELEMENT nombre (#PCDATA)>
-		            <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
-            	    <!ATTLIST nombre edad  CDATA  #IMPLIED>
-		        <!ELEMENT apellido (#PCDATA)>
-		        <!ELEMENT direccion (#PCDATA)>
-		        <!ELEMENT DUI (#PCDATA)>
-		        <!ELEMENT telefono (#PCDATA)>
-			        <!ATTLIST telefono tipo CDATA #REQUIRED>
-                    <!ATTLIST telefono id CDATA #REQUIRED>
-		        <!ELEMENT correo (#PCDATA)>
-		        <!ELEMENT pais (#PCDATA)>
-			        <!ATTLIST pais idioma CDATA #IMPLIED>
-			        <!ATTLIST pais moneda CDATA #IMPLIED> 
+    <!ELEMENT encabezado (a*, fecha, puesto)>
+        <!ATTLIST encabezado empresa CDATA #FIXED "TPI S.A. de C.V.">
+            <!ELEMENT fecha (#PCDATA)>
+            <!ELEMENT puesto (#PCDATA)>
+		<!ELEMENT ficha ((nombre, apellido,foto?, direccion*, DUI?, telefono*) |correo|pais)*>
+            <!ELEMENT foto EMPTY>
+		    <!ELEMENT nombre (#PCDATA)>
+		        <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            	<!ATTLIST nombre edad  CDATA  #IMPLIED>
+		    <!ELEMENT apellido (#PCDATA)>
+		    <!ELEMENT direccion (#PCDATA)>
+		    <!ELEMENT DUI (#PCDATA)>
+		    <!ELEMENT telefono (#PCDATA)>
+			    <!ATTLIST telefono tipo CDATA #REQUIRED>
+                <!ATTLIST telefono id CDATA #REQUIRED>
+		    <!ELEMENT correo (#PCDATA)>
+		    <!ELEMENT pais (#PCDATA)>
+			    <!ATTLIST pais idioma CDATA #IMPLIED>
+			    <!ATTLIST pais moneda CDATA #IMPLIED> 
+			<!ELEMENT a (#PCDATA)>
+			<!ATTLIST a  
+				href CDATA #IMPLIED
+					xmlns CDATA #IMPLIED 
+					target (_blank|_self|marco) "_blank">
+					

@@ -1,5 +1,5 @@
 <!-- dtd para ejercicio 1c -->
-<!ELEMENT fichero (ficha+)>
+<!ELEMENT fichero (a*, ficha+)>
 		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -7,3 +7,8 @@
 		<!ELEMENT apellido (#PCDATA)>
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT a (#PCDATA)>
+		<!ATTLIST a  
+			href CDATA #IMPLIED
+			xmlns CDATA #IMPLIED 
+			target (_blank|_self|marco) "_blank">

@@ -3,6 +3,7 @@
 
 <!DOCTYPE fichero SYSTEM "dtd1a.dtd">
 <fichero>
+	<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">index</a>
  	<ficha>
   		<nombre sexo="femenino" edad="17">Angelina</nombre>
   		<apellido>Fernandez</apellido>
