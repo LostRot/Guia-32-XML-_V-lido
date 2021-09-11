@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- tarea.xml -->
+
+<!DOCTYPE grupo SYSTEM "tarea.dtd">
+<grupo>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">index</a>
+    <team_trabajo tipo="GD" codigo="1"> 
+        <facultad id_facultad="12354">Faclutad de Ingenieria y Arquitectura</facultad>
+        <carrera id_carrera="897">Ingenieria en sistemas informaticos</carrera>
+        <materia>Proramacion I</materia>
+        <profesor grupo="GD">ing. Balmore Ortiz</profesor>
+        <nom_actividad>Evaluado 1</nom_actividad>
+        <ponderacion>25%</ponderacion>
+        <tema n_grupo="01">POO</tema>
+        <integrantes>
+            <alumno coordinador="TRUE" sexo="M" numero="01">
+                <carnet>BE17005</carnet>
+                <nombre>Erick Brandon</nombre>
+                <apellido>Bolaños Elias</apellido>
+            </alumno>
+            <alumno coordinador="FALSE" sexo="M" numero="02">
+                <carnet>AG19013</carnet>
+                <nombre>Christian Javier</nombre>
+                <apellido>Ayala Guerra</apellido>
+            </alumno>
+            <alumno coordinador="FALSE" sexo="M" numero="03">
+                <carnet>AM10014</carnet>
+                <nombre>Ricardo Antonio</nombre>
+                <apellido>Acosta Morales</apellido>
+            </alumno>
+            <alumno coordinador="FALSE" sexo="F" numero="04">
+                <carnet>AA19012</carnet>
+                <nombre>Fatima Mercedes</nombre>
+                <apellido>Aguilar Aguirre</apellido>
+            </alumno>
+        </integrantes>
+    </team_trabajo>
+
+    <team_trabajo tipo="GT" codigo="2"> 
+        <facultad id_facultad="123">Faclutad de Ingenieria y Arquitectura</facultad>
+        <carrera id_carrera="823">Ingenieria en sistemas informaticos</carrera>
+        <materia>TPI115</materia>
+        <profesor grupo="GT">ing. Balmore Ortiz</profesor>
+        <nom_actividad>Evaluado 1</nom_actividad>
+        <ponderacion>25%</ponderacion>
+        <tema n_grupo="02">XML</tema>
+        <integrantes>
+            <alumno coordinador="TRUE" sexo="F" numero="01">
+                <carnet>FL18015</carnet>
+                <nombre>Elizabeth Rocio</nombre>
+                <apellido>Fuentes Lopez</apellido>
+            </alumno>
+            <alumno coordinador="FALSE" sexo="M" numero="02">
+                <carnet>OC12025</carnet>
+                <nombre>Salvador Antonio</nombre>
+                <apellido>Orantes carbajal</apellido>
+            </alumno>
+            <alumno coordinador="FALSE" sexo="M" numero="03">
+                <carnet>LS12014</carnet>
+                <nombre>Jorge Alonso</nombre>
+                <apellido>Lopex Suares</apellido>
+            </alumno>
+            <alumno coordinador="FALSE" sexo="F" numero="04">
+                <carnet>HM19025</carnet>
+                <nombre>Sara Aide</nombre>
+                <apellido>Hernandez Martinez</apellido>
+            </alumno>
+        </integrantes>
+    </team_trabajo>
+
+</grupo>

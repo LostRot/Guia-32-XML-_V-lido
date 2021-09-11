@@ -1,0 +1,30 @@
+<!-- tarea dtd -->
+<!ELEMENT grupo (team_trabajo+ | a*)*>
+    <!ATTLIST grupo institucion CDATA #FIXED "Universidad de El Salvador">
+<!ELEMENT team_trabajo (facultad| carrera| materia| profesor| nom_actividad| ponderacion| tema+| integrantes)+>
+        <!ATTLIST team_trabajo tipo (GD | GL | GT) #REQUIRED>
+        <!ATTLIST team_trabajo codigo NMTOKEN #REQUIRED>
+    <!ELEMENT facultad (#PCDATA)>
+        <!ATTLIST facultad id_facultad CDATA #REQUIRED>
+    <!ELEMENT carrera (#PCDATA)>
+        <!ATTLIST carrera id_carrera CDATA #REQUIRED>
+    <!ELEMENT materia (#PCDATA)>
+    <!ELEMENT profesor (#PCDATA)>
+        <!ATTLIST profesor grupo (GD | GT | GL) #REQUIRED>
+    <!ELEMENT nom_actividad (#PCDATA)>
+    <!ELEMENT ponderacion (#PCDATA)>
+    <!ELEMENT tema (#PCDATA)>
+        <!ATTLIST tema n_grupo CDATA #REQUIRED>
+    <!ELEMENT integrantes (alumno+)>
+        <!ELEMENT alumno (carnet, nombre, apellido)>
+            <!ATTLIST alumno coordinador (TRUE| FALSE) #REQUIRED>
+            <!ATTLIST alumno numero CDATA #REQUIRED>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT apellido (#PCDATA)>
+            <!ELEMENT carnet (#PCDATA)>
+            <!ATTLIST alumno sexo (M | F) #REQUIRED>
+            <!ELEMENT a (#PCDATA)>
+	<!ATTLIST a  
+		href CDATA #IMPLIED
+		xmlns CDATA #IMPLIED 
+		target (_blank|_self|marco) "_blank">
