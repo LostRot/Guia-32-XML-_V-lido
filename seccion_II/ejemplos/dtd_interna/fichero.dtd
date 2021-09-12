@@ -1,5 +1,5 @@
 <!-- ficha.dtd -->
-<!ELEMENT fichero (ficha+)>
+<!ELEMENT fichero (a,ficha+)>
 <!ELEMENT ficha (nombre, apellido, direccion*, dui?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -7,3 +7,8 @@
 <!ELEMENT apellido (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT dui (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a  
+href CDATA #IMPLIED
+xmlns CDATA #IMPLIED 
+target (_blank|_self|marco) "_blank">
