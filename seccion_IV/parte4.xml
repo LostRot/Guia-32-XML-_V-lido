@@ -139,60 +139,60 @@ type CDATA #REQUIRED>
   
   <table>
       <tr>
-	     <td>Carnes</td>
+	     <td>Embutidos y Lácteos</td>
 	  </tr> 
       <tr>
-	     <td>Carne de Res</td>
-		 <td>Filete de pollo</td>
-		 <td>Bistec</td>
-		 <td>Pescado</td>
-		 <td>Camarones</td>
-		 <td>Lonja</td>
+	     <td>Leche Entera Liquida</td>
+		 <td>Queso Crema</td>
+		 <td>Queso Mozarella</td>
+		 <td>Mantequilla</td>
+		 <td>Queso Duro Blando</td>
+		 <td>Jamón de Pavo</td>
 	  </tr>
 	  <tr>
-	     <td>1 libra</td>
-		 <td>2 filetes</td>
+	     <td>2 litros</td>
+		 <td>2 libras</td>
 		 <td>3 libras</td>
-		 <td>5 pescados</td>
+		 <td>1 libra</td>
 		 <td>3 libras</td>
 		 <td>1 libra</td>
 	  </tr>
 	  <tr>
 	     <td>$3.00</td>
-		 <td>$5.00</td>
-		 <td>$8.00</td>
-		 <td>$10.00</td>
-		 <td>$12.00</td>
 		 <td>$3.00</td>
+		 <td>$8.00</td>
+		 <td>$3.00</td>
+		 <td>$12.00</td>
+		 <td>$5.00</td>
 	  </tr>
   </table>
   <table>
       <tr>
-	     <td>Carnes</td>
+	     <td>Viveres</td>
 	  </tr> 
       <tr>
-	     <td>Carne de Res</td>
-		 <td>Filete de pollo</td>
-		 <td>Bistec</td>
-		 <td>Pescado</td>
-		 <td>Camarones</td>
-		 <td>Lonja</td>
+	     <td>Arroz</td>
+		 <td>Harina de Trigo</td>
+		 <td>Harina de Maiz</td>
+		 <td>Azúcar</td>
+		 <td>Aceite de Oliva</td>
+		 <td>Cereal Nesquik</td>
 	  </tr>
 	  <tr>
-	     <td>1 libra</td>
-		 <td>2 filetes</td>
-		 <td>3 libras</td>
-		 <td>5 pescados</td>
-		 <td>3 libras</td>
-		 <td>1 libra</td>
+	     <td>4 libras</td>
+		 <td>2 libras</td>
+		 <td>2 libras</td>
+		 <td>4 libras</td>
+		 <td>1 litro</td>
+		 <td>2 cajas</td>
 	  </tr>
 	  <tr>
-	     <td>$3.00</td>
-		 <td>$5.00</td>
-		 <td>$8.00</td>
-		 <td>$10.00</td>
-		 <td>$12.00</td>
+	     <td>$2.00</td>
 		 <td>$3.00</td>
+		 <td>$3.00</td>
+		 <td>$2.00</td>
+		 <td>$7.00</td>
+		 <td>$6.00</td>
 	  </tr>
   </table>
 </body>
