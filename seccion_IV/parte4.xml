@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/estilos/ejercicio3_4.css" ?>
+
+<!DOCTYPE html [
+<!ELEMENT html (head,body)>
+<!ELEMENT head (title, (meta | link | script | style)*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT meta EMPTY>
+<!ELEMENT link EMPTY>
+<!ELEMENT style (#PCDATA)>
+<!ELEMENT script (#PCDATA)>
+<!ELEMENT body (#PCDATA | p | h1 | h2 | h3 | table | nav | ul | li)*>
+<!ELEMENT p (#PCDATA )>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT h3 (#PCDATA )>
+<!ELEMENT table (#PCDATA)>
+<!ELEMENT nav (#PCDATA )>
+<!ELEMENT ul (#PCDATA)>
+<!ELEMENT li (#PCDATA )>
+<!ELEMENT a (#PCDATA)>
+
+<!ATTLIST html
+lang (es|en|fr) "es"
+copyrygth CDATA #FIXED "Guia32 Grupo3 TPI115-2021">
+
+<!ATTLIST meta
+name CDATA #REQUIRED
+content CDATA #REQUIRED>
+
+<!ATTLIST link
+href CDATA #REQUIRED
+rel CDATA #REQUIRED
+type CDATA #REQUIRED>
+]>
+
+<html>
+<head>
+<meta name = "author" content = "Jocelyn Marisol Benavides"></meta>
+</head>
+
+<body>
+  <h1>Lista de compras del supermercado</h1>
+  
+  <table>
+      <tr>
+	     <td>Carnes</td>
+	  </tr> 
+      <tr>
+	     <td>Carne de Res</td>
+		 <td>Filete de pollo</td>
+		 <td>Bistec</td>
+		 <td>Pescado</td>
+		 <td>Camarones</td>
+		 <td>Lonja</td>
+	  </tr>
+	  <tr>
+	     <td>1 libra</td>
+		 <td>2 filetes</td>
+		 <td>3 libras</td>
+		 <td>5 pescados</td>
+		 <td>3 libras</td>
+		 <td>1 libra</td>
+	  </tr>
+	  <tr>
+	     <td>$3.00</td>
+		 <td>$5.00</td>
+		 <td>$8.00</td>
+		 <td>$10.00</td>
+		 <td>$12.00</td>
+		 <td>$3.00</td>
+	  </tr>
+  </table>
+  
+  <table>
+      <tr>
+	     <td>Carnes</td>
+	  </tr> 
+      <tr>
+	     <td>Carne de Res</td>
+		 <td>Filete de pollo</td>
+		 <td>Bistec</td>
+		 <td>Pescado</td>
+		 <td>Camarones</td>
+		 <td>Lonja</td>
+	  </tr>
+	  <tr>
+	     <td>1 libra</td>
+		 <td>2 filetes</td>
+		 <td>3 libras</td>
+		 <td>5 pescados</td>
+		 <td>3 libras</td>
+		 <td>1 libra</td>
+	  </tr>
+	  <tr>
+	     <td>$3.00</td>
+		 <td>$5.00</td>
+		 <td>$8.00</td>
+		 <td>$10.00</td>
+		 <td>$12.00</td>
+		 <td>$3.00</td>
+	  </tr>
+  </table>
+  <table>
+      <tr>
+	     <td>Carnes</td>
+	  </tr> 
+      <tr>
+	     <td>Carne de Res</td>
+		 <td>Filete de pollo</td>
+		 <td>Bistec</td>
+		 <td>Pescado</td>
+		 <td>Camarones</td>
+		 <td>Lonja</td>
+	  </tr>
+	  <tr>
+	     <td>1 libra</td>
+		 <td>2 filetes</td>
+		 <td>3 libras</td>
+		 <td>5 pescados</td>
+		 <td>3 libras</td>
+		 <td>1 libra</td>
+	  </tr>
+	  <tr>
+	     <td>$3.00</td>
+		 <td>$5.00</td>
+		 <td>$8.00</td>
+		 <td>$10.00</td>
+		 <td>$12.00</td>
+		 <td>$3.00</td>
+	  </tr>
+  </table>
+  
+  <table>
+      <tr>
+	     <td>Carnes</td>
+	  </tr> 
+      <tr>
+	     <td>Carne de Res</td>
+		 <td>Filete de pollo</td>
+		 <td>Bistec</td>
+		 <td>Pescado</td>
+		 <td>Camarones</td>
+		 <td>Lonja</td>
+	  </tr>
+	  <tr>
+	     <td>1 libra</td>
+		 <td>2 filetes</td>
+		 <td>3 libras</td>
+		 <td>5 pescados</td>
+		 <td>3 libras</td>
+		 <td>1 libra</td>
+	  </tr>
+	  <tr>
+	     <td>$3.00</td>
+		 <td>$5.00</td>
+		 <td>$8.00</td>
+		 <td>$10.00</td>
+		 <td>$12.00</td>
+		 <td>$3.00</td>
+	  </tr>
+  </table>
+  <table>
+      <tr>
+	     <td>Carnes</td>
+	  </tr> 
+      <tr>
+	     <td>Carne de Res</td>
+		 <td>Filete de pollo</td>
+		 <td>Bistec</td>
+		 <td>Pescado</td>
+		 <td>Camarones</td>
+		 <td>Lonja</td>
+	  </tr>
+	  <tr>
+	     <td>1 libra</td>
+		 <td>2 filetes</td>
+		 <td>3 libras</td>
+		 <td>5 pescados</td>
+		 <td>3 libras</td>
+		 <td>1 libra</td>
+	  </tr>
+	  <tr>
+	     <td>$3.00</td>
+		 <td>$5.00</td>
+		 <td>$8.00</td>
+		 <td>$10.00</td>
+		 <td>$12.00</td>
+		 <td>$3.00</td>
+	  </tr>
+  </table>
+</body>
+</html>
