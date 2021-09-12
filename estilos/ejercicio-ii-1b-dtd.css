@@ -1,0 +1,42 @@
+fichero{
+    background: url(/imagenes/paisajes-tumblr-fondo-para-facebook-6.jpg);
+    background-repeat: no-repeat;
+	background-size:cover;
+    display: table;
+   
+	
+   
+    background-attachment: fixed;
+}
+a{
+	text-decoration: none;
+	font-weight:bolder;
+		font-size: 1em;
+		color: #cbd8e6;
+		font-family : "Gill Sans Extrabold", Helvetica, sans-serif;
+		padding-left: 20px;
+        padding-top: 20px;
+        display: block;
+}
+fecha, puesto{
+    display:-webkit-inline-box;
+font-weight: bolder;
+font-size: 1.5em;
+color: #cbd8e6;
+position:relative;
+text-align: right;
+
+margin: 35px;
+}
+nombre, apellido, direccion, DUI, telefono, correo, pais{
+display:block;
+font-weight: bolder;
+font-size: 2em;
+color: #020d18;
+position:relative;
+text-align: left;
+
+margin: 35px;
+
+
+}

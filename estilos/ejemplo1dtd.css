@@ -18,15 +18,16 @@ a{
         padding-top: 20px;
         display: block;
 }
-nombre, apellido, direccion, DUI, telefono, correo, pais{
-display:block;
+nombre, apellido, direccion{
+display:-webkit-inline-box;
 font-weight: bolder;
 font-size: 2em;
 color: #020d18;
 position:relative;
-text-align: left;
+text-align: right;
 
 margin: 35px;
 
 
 }
+

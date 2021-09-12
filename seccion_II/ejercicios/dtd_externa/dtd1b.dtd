@@ -1,6 +1,6 @@
 <!-- dtd para ejercicio 1b -->
-<!ELEMENT fichero (encabezado?,ficha+)>
-    <!ELEMENT encabezado (a*, fecha, puesto)>
+<!ELEMENT fichero (a*, encabezado?,ficha+)>
+    <!ELEMENT encabezado ( fecha, puesto)>
         <!ATTLIST encabezado empresa CDATA #FIXED "TPI S.A. de C.V.">
             <!ELEMENT fecha (#PCDATA)>
             <!ELEMENT puesto (#PCDATA)>

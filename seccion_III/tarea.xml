@@ -4,7 +4,7 @@
 
 <!DOCTYPE grupo SYSTEM "tarea.dtd">
 <grupo>
-    <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">index</a>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">INICIO</a>
 
     <team_trabajo tipo="GD" codigo="1"> 
         <facultad id_facultad="12354">Faclutad de Ingenieria y Arquitectura</facultad>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/estilos/ejercicio-ii-1b-dtd.css" ?>
 <!-- ejemplodtd1.xml -->
 
 <!DOCTYPE fichero SYSTEM "dtd1b.dtd">
 <fichero>
+	<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">INICIO</a>
     <encabezado>
-        <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">___index___</a>
+       
 		<fecha>09-09-2021</fecha>
         <puesto>Vendedora</puesto>
 

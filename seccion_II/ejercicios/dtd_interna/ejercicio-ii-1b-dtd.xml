@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/estilos/ejercicio-ii-1b-dtd.css" ?>
 <!-- ejemplodtd1.xml -->
 
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (encabezado?,ficha+)>
-            <!ELEMENT encabezado (a*,fecha, puesto)>
+		<!ELEMENT fichero (a*, encabezado?,ficha+)>
+            <!ELEMENT encabezado (fecha, puesto)>
                 <!ATTLIST encabezado empresa CDATA #FIXED "TPI S.A. de C.V.">
                 <!ELEMENT fecha (#PCDATA)>
                 <!ELEMENT puesto (#PCDATA)>
@@ -29,8 +30,10 @@
 					target (_blank|_self|marco) "_blank">
 		]>
 <fichero>
+
+	<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">INICIO</a>
     <encabezado>
-		<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">___index___</a>
+		
         <fecha>09-09-2021</fecha>
         <puesto>Vendedora</puesto>
 		

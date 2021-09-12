@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/estilos/ejercicio-ii-1a-dtd.css" ?>
 <!-- ejemplodtd1.xml -->
 
 <!DOCTYPE fichero SYSTEM "dtd1a.dtd">
 <fichero>
-	<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">index</a>
+	<a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">INICIO</a>
  	<ficha>
   		<nombre sexo="femenino" edad="17">Angelina</nombre>
   		<apellido>Fernandez</apellido>

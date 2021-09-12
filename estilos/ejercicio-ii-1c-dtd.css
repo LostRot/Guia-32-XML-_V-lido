@@ -1,14 +1,31 @@
-﻿* {
-    display: block;
+﻿fichero{
+    background: url(/imagenes/paisajes-tumblr-fondo-para-facebook-6.jpg);
+    background-repeat: no-repeat;
+	background-size:cover;
+    display:table;
+   
+	
+   
+    background-attachment: fixed;
 }
-
-nombre[sexo]::before {
-    content: " (Genero " attr(sexo) " ) ";
-    color: blue;
-    font-size: 3mm;
+a{
+	text-decoration: none;
+	font-weight:bolder;
+		font-size: 1em;
+		color: #cbd8e6;
+		font-family : "Gill Sans Extrabold", Helvetica, sans-serif;
+		padding-left: 20px;
+        padding-top: 20px;
+        display: block;
 }
+nombre, apellido, direccion{
 
-nombre[sexo]::after {
-    content: " sexo: " attr(sexo);
-    color: red;
+font-weight: bolder;
+font-size: 2em;
+color: #020d18;
+position:relative;
+text-align: left;
+
+padding: auto;
+margin: 100px;
 }

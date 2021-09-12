@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="/seccion_IV/ejercicio3_P4.css" ?>
 
 <!DOCTYPE html [
-<!ELEMENT html (head,body)>
+<!ELEMENT html (a*,head,body)>
 <!ELEMENT head (title, (meta | link | script | style)*)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT meta EMPTY>
@@ -32,9 +32,15 @@ content CDATA #REQUIRED>
 href CDATA #REQUIRED
 rel CDATA #REQUIRED
 type CDATA #REQUIRED>
+
+<!ATTLIST a  
+			href CDATA #IMPLIED
+			xmlns CDATA #IMPLIED 
+			target (_blank|_self|marco) "_blank"> 
 ]>
 
 <html>
+	<a id="hola" xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco"><b>INICIO</b></a>
 <head>
 <meta name = "author" content = "Jocelyn Marisol Benavides"></meta>
 </head>
