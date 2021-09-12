@@ -1,0 +1,43 @@
+
+html{
+	background-image : url(https://s2.best-wallpaper.net/wallpaper/1600x1200/1705/Pineapple-stones-rocks-sea_1600x1200.jpg);
+}
+body h1{
+	display : block;
+	margin : 55px;
+	color : #17202A;
+	text-align : center;
+	padding : 20px;	
+	font-family : "Gill Sans Extrabold", Helvetica, sans-serif;
+	background-color: #EBF5FB ; 
+	font-size: 30px;
+	opacity: 0.75;
+}
+table{
+	margin : 55px;
+}
+table tr td{
+	display: table-row;
+	color: #17202A  ;
+    font-size: 20px;
+    border-spacing: 100px;
+    border: #FCFAFC 100px solid;
+    margin:  100px;
+	padding : 100px;
+    font-family : "Gill Sans Extrabold", Helvetica, sans-serif;
+    height : 100%;
+	width : 100%;
+	text-align : left;
+}
+table tr{
+	background-color:#EBF5FB;
+	padding : 40px;
+	margin : 40px;
+	height : 25px;
+	display : table-cell;
+	opacity: 0.75;
+	width : 100 px;	
+}
+
+
+
