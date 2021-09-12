@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- tarea.xml -->
+<?xml-stylesheet type="text/css" href="tarea.css"?>
 
 <!DOCTYPE grupo SYSTEM "tarea.dtd">
 <grupo>
     <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">index</a>
+
     <team_trabajo tipo="GD" codigo="1"> 
         <facultad id_facultad="12354">Faclutad de Ingenieria y Arquitectura</facultad>
         <carrera id_carrera="897">Ingenieria en sistemas informaticos</carrera>

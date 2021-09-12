@@ -1,0 +1,54 @@
+grupo {
+    background: url(/imagenes/xeNZBp.jpg);
+    display: table;
+    background-size: cover;
+    margin: 0px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+team_trabajo {
+    display: inline-table;
+    color: azure;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+}
+
+alumno {
+    display: block;
+}
+
+facultad {
+    display: table;
+    font-display: table;
+}
+
+carrera {
+    display: table;
+}
+
+materia {
+    display: table;
+}
+
+profesor {
+    display: table;
+}
+
+nom_actividad {
+    display: table;
+}
+
+ponderacion {
+    display: table;
+}
+
+tema {
+    display: table;
+}
